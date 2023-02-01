@@ -1,0 +1,2 @@
+Main-Class: app.Main
+Class-Path: javaparser-core-3.16.2.jar Graphml.jar Visitor.jar Base.jar Class.jar Method.jar Variable.jar Signature.jar
