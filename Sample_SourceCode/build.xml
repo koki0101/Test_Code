@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="GraphMLTransformer" default="transform graphml" basedir="C:/Users/koki ono/bash/GraphMLTransformer">
- <property name="srcdir" value="C:/Users/koki ono/bash/Sample_SourceCode"/>	
- <property name="cygwin" location="C:/cygwin64"/>
+<project name="GraphMLTransformer" default="transform graphml" basedir="C:\ProgramData\Jenkins\.jenkins\workspace\Test_Job">
+ <property name="srcdir" value="${basedir}/Sample_SourceCode"/>
+ <property name="batdir" value="${srcdir}/report"/>
+ <property name="jardir" value="${basedir}/GraphMLTransform"/>
 
  <target name="transform graphml">
-  <exec executable="${basedir}/graphmlt.bat">
-   <arg value="C:\Users\koki ono\bash\Sample_SourceCode\main\Main.java"/>
-   <arg value="C:\Users\koki ono\bash\Sample_SourceCode\vehicle\Vehicle.java"/>
-   <arg value="C:\Users\koki ono\bash\Sample_SourceCode\vehicle\Car.java"/>
+  <exec executable="${srcdir}/report/graphmlt.bat">
+   <arg value="${srcdir}/main/main.java"/>
+   <arg value="${srcdir}/vehicle/Vehicle.java"/>
+   <arg value="${srcdir}/vehicle/Car.java"/>
   </exec>	
  </target>
 </project>
