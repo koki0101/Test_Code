@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="GraphMLTransformer" default="transform graphml" basedir="C:/Users/koki ono/bash/GraphMLTransformer">
+ <property name="srcdir" value="C:/Users/koki ono/bash/Sample_SourceCode"/>	
+ <property name="cygwin" location="C:/cygwin64"/>
+
+ <target name="transform graphml">
+  <exec executable="${basedir}/graphmlt.bat">
+   <arg value="C:\Users\koki ono\bash\Sample_SourceCode\main\Main.java"/>
+   <arg value="C:\Users\koki ono\bash\Sample_SourceCode\vehicle\Vehicle.java"/>
+   <arg value="C:\Users\koki ono\bash\Sample_SourceCode\vehicle\Car.java"/>
+  </exec>	
+ </target>
+</project>
