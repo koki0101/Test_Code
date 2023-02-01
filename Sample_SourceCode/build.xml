@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="SampleCode" default="transform graphml" basedir="C:\ProgramData\Jenkins\.jenkins\workspace\Test_Job">
+<project name="SampleCode" default="transform graphml" basedir=".">
  <property name="srcdir" value="${basedir}/Sample_SourceCode"/>
  <property name="batdir" value="${srcdir}/report"/>
  <property name="jardir" value="${basedir}/GraphMLTransform"/>
