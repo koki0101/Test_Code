@@ -23,6 +23,8 @@ rem 引数をずらす
 
 goto loop
 
+cd ../GraphMLTransform
+
 rem GraphML変換機能を実行し, 結果をファイルに出力する
 :confirm
 @echo on
