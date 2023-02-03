@@ -27,4 +27,4 @@ rem GraphML変換機能を実行し, 結果をファイルに出力する
 :confirm
 cd ..\GraphMLTransform
 @echo on
-Java > ..\report\GraphML_Transtext.graphml -jar Main.jar %arr[1]% %arr[2]% %arr[3]% %arr[4]% %arr[5]% %arr[6]% %arr[6]% %arr[7]% %arr[8]% %arr[9]% %arr[10]% 
+Java >  C:\ProgramData\Jenkins\.jenkins\workspace\Test_Code\Sample_SourceCode\report\GraphML_Transtext.graphml -jar Main.jar %arr[1]% %arr[2]% %arr[3]% %arr[4]% %arr[5]% %arr[6]% %arr[6]% %arr[7]% %arr[8]% %arr[9]% %arr[10]% 
