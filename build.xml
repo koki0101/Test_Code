@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="SampleCode" default="transform graphml" basedir=".">
+<project name="SampleCode" default="JarExe" basedir=".">
  <property name="srcdir" value="${basedir}\Sample_SourceCode"/>
  <property name="batdir" value="${srcdir}\report"/>
  <property name="jardir" value="${basedir}\GraphMLTransform"/>
+	
+	
+ <target name="JarExe">
+	<jar basedir="${jardir}" jarfile="Main.jar"/>
+ </target>
 
  <target name="transform graphml">
   <exec executable="${srcdir}/report/graphmlt.bat">
