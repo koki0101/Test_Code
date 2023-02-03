@@ -7,9 +7,9 @@
 	
  <target name="JarExe">
 	<java jar="${jardir}/Main.jar" fork="true">
- 	  <arg value="${srcdir}\main\Main.java"/>
- 	  <arg value="${srcdir}\vehicle\Vehicle.java"/>
- 	  <arg value="${srcdir}\vehicle\Car.java"/>
+ 	  <arg value="C:\ProgramData\Jenkins\.jenkins\workspace\Test_Code\Sample_SourceCode\main\Main.java"/>
+ 	  <arg value="C:\ProgramData\Jenkins\.jenkins\workspace\Test_Code\Sample_SourceCode\vehicle\Vehicle.java"/>
+ 	  <arg value="C:\ProgramData\Jenkins\.jenkins\workspace\Test_Code\Sample_SourceCode\vehicle\Car.java"/>
  	</java>
  </target>
 
