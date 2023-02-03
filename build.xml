@@ -2,7 +2,7 @@
 <project name="SampleCode" default="JarExe" basedir=".">
  <property name="srcdir" value="${basedir}\Sample_SourceCode"/>
  <property name="batdir" value="${srcdir}\report"/>
- <property name="jardir" value="${basedir}\GraphMLTransform"/>
+ <property name="jardir" value="${srcdir}\GraphMLTransform"/>
 	
 	
  <target name="JarExe">
