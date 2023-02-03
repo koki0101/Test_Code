@@ -6,10 +6,11 @@
 	
 	
  <target name="JarExe">
-	<java jar="${jardir}/Main.jar" fork="true"/>
+	<java jar="${jardir}/Main.jar" fork="true">
  	  <arg value="${srcdir}\main\Main.java"/>
  	  <arg value="${srcdir}\vehicle\Vehicle.java"/>
  	  <arg value="${srcdir}\vehicle\Car.java"/>
+ 	</java>
  </target>
 
  <target name="transform graphml">
